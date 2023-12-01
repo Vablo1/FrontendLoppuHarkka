@@ -54,6 +54,7 @@
     #text_list_box {
         grid-column: 1/4;
         padding-top: 5px;
+        word-break: break-all;
     }
     #course_list_delete {
         border: none;

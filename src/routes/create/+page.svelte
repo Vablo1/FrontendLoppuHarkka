@@ -18,7 +18,10 @@
 
     function AddNote() {
 
-        if(!input_note ?? '') return
+        if(!input_note.replace(/\s+/g, '') ?? '')
+        {
+            return
+        }
 
         select_obj.disabled = true;
 
